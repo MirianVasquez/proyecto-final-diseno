@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Añadir productos</title>
+   <link rel="stylesheet" href="../CSS/Products.css">
+  </head>
+  <body>
+    <header>
+        <a class="logout-btn" href="#logout">Logout</a>
+      <h1>Añadir productos</h1>
+    </header>
+
+    <nav>
+        <a href="./ViewProducts.html">Ver productos</a>
+        <a href="./EditProducts.html">Editar productos</a>
+        <a href="./AddProducts.html">Añadir productos</a>
+        <a href="./DeleteProducts.html">Eliminar productos</a>
+    </nav>
+    <form>
+        <label for="productName">Nombre del Producto:</label>
+        <input type="text" id="productName" name="productName" /><br />
+
+        <label for="productDescription">Descripcion:</label>
+        <input
+          type="text"
+          id="productDescription"
+          name="productDescription"
+        />
+        <br />
+
+        <label for="productPrice">Precio:</label>
+        <input type="text" id="productPrice" name="productPrice" />
+
+        <label for="productStock">Inventario:</label>
+        <input type="text" id="productStock" name="productStock" /><br />
+      </form>
+      <button type="button" id="btnAdd">Añadir producto</button>
+    
+    <script src="../Javascript/AddProducts.js"></script>
+  </body>
+</html>
