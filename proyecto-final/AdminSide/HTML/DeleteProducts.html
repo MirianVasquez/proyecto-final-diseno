@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eliminar productos</title>
+    <link rel="stylesheet" href="../CSS/Products.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logout-btn" href="#logout">Logout</a>
+      <h1>Eliminar productos</h1>
+    </header>
+
+    <nav>
+      <a href="./ViewProducts.html">Ver productos</a>
+      <a href="./EditProducts.html">Editar productos</a>
+      <a href="./AddProducts.html">Añadir productos</a>
+      <a href="./DeleteProducts.html">Eliminar productos</a>
+    </nav>
+
+    <div class="container">
+      <table id="tableVista" class="editproduct">
+        <thead>
+          <tr>
+            <th>Producto ID</th>
+            <th>Nombre del Producto</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+            <th>Inventario</th>
+          </tr>
+        </thead>
+        <tbody id="data-output"></tbody>
+      </table>
+      <div>
+        <button type="button" id="btnDelete">Eliminar</button>
+      </div>
+    </div>
+    <script src="../Javascript/DeleteProducts.js"></script>
+  </body>
+</html>
