@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ver productos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/Products.css">
+  </head>
+  <body>
+    <header>
+      <a class="logout-btn" href="../HTML/Login.html">Logout</a>
+      <h1>Ver productos</h1>
+    </header>
+
+    <nav>
+      <a href="./ViewProducts.html">Ver productos</a>
+      <a href="./EditProducts.html">Editar productos</a>
+      <a href="./AddProducts.html">Añadir productos</a>
+      <a href="./DeleteProducts.html">Eliminar productos</a>
+    </nav>
+
+    <table id="tableVista" class="tableviewtech">
+      <thead>
+        <tr>
+          <th>Producto ID</th>
+          <th>Nombre del Producto</th>
+          <th>Descripcion</th>
+          <th>Precio</th>
+          <th>Inventario</th>
+        </tr>
+      </thead>
+      <tbody id="data-output"></tbody>
+    </table>
+    <script src="../Javascript/ViewProducts.js"></script>
+  </body>
+</html>
